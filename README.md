@@ -1,7 +1,7 @@
 # ClickCounter
 
 
-![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-10-28at21.13.09x.png)
+![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-10-28at22.12.03.png.png)
 
 
 ClickCounter is an iOS sample application that counts user clicks.

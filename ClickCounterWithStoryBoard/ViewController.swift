@@ -11,12 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     var count = 0
-    @IBOutlet var label = UILabel!
+    @IBOutlet var label : UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //self.label = UILabel()
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     
-    func incrementCount() {
+    @IBAction func incrementCount() {
         self.count = self.count + 1
         self.label.text = "\(self.count)"
     }
